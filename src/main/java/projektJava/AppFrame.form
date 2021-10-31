@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="736" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="examL" max="32767" attributes="0"/>
+                          <Component id="albumNumberL" alignment="1" max="32767" attributes="0"/>
+                          <Component id="activeL" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="examTF" pref="62" max="32767" attributes="0"/>
+                          <Component id="albumNumberTF" max="32767" attributes="0"/>
+                          <Component id="activeTF" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="groupL" max="32767" attributes="0"/>
+                                  <Component id="projectL" pref="40" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="projectTF" min="-2" pref="67" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="groupTF" min="-2" pref="64" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="addB" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="kolokwium1L" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="kolokwium1TF" min="-2" pref="66" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="personL" min="-2" pref="67" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="personTF" min="-2" pref="63" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="homeworkL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="homeworkTF" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="kolokwium2L" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="kolokwium2TF" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="saveTable" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="importFile" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="albumNumberL" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="albumNumberTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="groupL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="groupTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="personL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="personTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="homeworkL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="homeworkTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="activeL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="projectL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="activeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="projectTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kolokwium1L" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kolokwium1TF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kolokwium2L" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kolokwium2TF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="examL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="examTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveTable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="importFile" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="211" max="-2" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="albumNumberL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numer albumu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="activeL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aktywno&#x15b;&#x107;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="albumNumberTF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="activeTF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="groupL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Grupa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="projectL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Projekt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="groupTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="groupTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="projectTF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="personL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Osoba"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kolokwium1L">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kolokwium 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="personTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="kolokwium1TF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="homeworkL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Praca domowa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kolokwium2L">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kolokwium 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="homeworkTF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kolokwium2TF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="examL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Egzamin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="examTF">
+      <Properties>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new InputVerifier() {&#xd;&#xa;        @Override&#xd;&#xa;        public boolean verify(JComponent input) {&#xd;&#xa;            try {&#xd;&#xa;                Integer.parseInt(((JTextField)input).getText());&#xd;&#xa;            } catch (NumberFormatException e) {&#xd;&#xa;                return false;&#xd;&#xa;            }&#xd;&#xa;            return true;&#xd;&#xa;        }&#xd;&#xa;    }" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addBActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tab">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="10" rowCount="0">
+                <Column editable="true" title="Numer albumu" type="java.lang.Integer"/>
+                <Column editable="true" title="Osoba" type="java.lang.String"/>
+                <Column editable="true" title="Grupa" type="java.lang.String"/>
+                <Column editable="true" title="Praca domowa" type="java.lang.Integer"/>
+                <Column editable="true" title="Aktywno&#x15b;&#x107;" type="java.lang.Integer"/>
+                <Column editable="true" title="Projekt" type="java.lang.Integer"/>
+                <Column editable="true" title="Kolokwium1" type="java.lang.Integer"/>
+                <Column editable="true" title="Kolokwium 2" type="java.lang.Integer"/>
+                <Column editable="true" title="Egzamin" type="java.lang.Integer"/>
+                <Column editable="true" title="SUMA" type="java.lang.Integer"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="saveTable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zapis do pliku"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveTableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="importFile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wczytaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="importFileActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
